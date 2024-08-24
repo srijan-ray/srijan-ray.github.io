@@ -1,7 +1,5 @@
-<<<<<<< HEAD
 # StrontiumComputer.github.io
 Srijan Ray's Portfolio Website
-=======
 # Astro Starter Kit: Minimal
 
 ```sh
@@ -49,4 +47,3 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
->>>>>>> 0ad656b (Initial commit from Astro)
