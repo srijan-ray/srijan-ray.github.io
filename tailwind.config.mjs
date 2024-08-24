@@ -7,6 +7,7 @@ export default {
 		extend: {
 			fontFamily: {
 				sans: ["Poppins", ...defaultTheme.fontFamily.sans],
+				serif: ["IBM Plex Mono", ...defaultTheme.fontFamily.mono],
 			},
 		},
 	},
