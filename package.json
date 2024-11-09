@@ -14,8 +14,13 @@
     "@astrojs/vue": "^4.5.0",
     "@fontsource/ibm-plex-mono": "^5.0.14",
     "@fontsource/poppins": "^5.0.15",
+    "@primevue/themes": "^4.2.1",
     "astro": "^4.14.5",
+    "primevue": "^4.2.1",
     "tailwindcss": "^3.4.10",
     "vue": "^3.4.38"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
   }
 }
