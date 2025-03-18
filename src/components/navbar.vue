@@ -44,27 +44,27 @@
             <div class="hidden lg:flex">
                 <ul class="menu menu-horizontal px-1">
                     <li>
-                        <a role="button" href="/about" class="btn btn-outline btn-sm mx-2">
+                        <a href="/about">
                             About
                         </a>
                     </li>
                     <li>
-                        <a role="button" href="/research" class="btn btn-outline btn-sm mx-2">
+                        <a href="/research">
                             Research
                         </a>
                     </li>
                     <li>
-                        <a role="button" href="/projects" class="btn btn-outline btn-sm mx-2">
+                        <a href="/projects">
                             Projects
                         </a>
                     </li>
                     <li>
-                        <a role="button" href="/resume" class="btn btn-outline btn-sm mx-2">
+                        <a href="/resume">
                             Resume/CV
                         </a>
                     </li>
                     <li>
-                        <a role="button" href="/blog" class="btn btn-outline btn-sm mx-2">
+                        <a href="/blog">
                             Blog
                         </a>
                     </li>
