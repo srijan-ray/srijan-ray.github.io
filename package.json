@@ -18,7 +18,6 @@
     "@tailwindcss/vite": "^4.0.14",
     "astro": "^5.5.2",
     "primevue": "^4.2.1",
-    "tailwindcss": "^4.0.14",
     "vue": "^3.4.38"
   },
   "devDependencies": {
