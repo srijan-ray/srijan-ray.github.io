@@ -42,7 +42,7 @@
                 </ul>
             </div>
             <div class="hidden lg:flex">
-                <ul class="menu menu-horizontal px-1">
+                <ul class="menu menu-horizontal px-1 -mt-3">
                     <li>
                         <a role="button" href="/about" class="btn btn-outline btn-sm mx-2">
                             About
