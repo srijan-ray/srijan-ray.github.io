@@ -1,5 +1,5 @@
 <template>
-    <div class="navbar bg-base-200">
+    <div class="navbar bg-base-200 sticky top-0">
         <div class="flex-1">
             <a href="/" class="btn btn-ghost text-xl">Srijan Ray</a>
         </div>
@@ -68,8 +68,9 @@
                             Blog
                         </a>
                     </li>
-                    <a href="https://linkedin.com/in/srijan-ray" target="_blank" rel="noopener noreferrer">
-                        <button class="mx-3 pt-[0.3rem] text-xl">
+                    <a href="https://linkedin.com/in/srijan-ray" target="_blank" rel="noopener noreferrer" role="button"
+                        class="btn btn-square mx-1 -mt-1">
+                        <button class="text-xl btn btn-square">
                             <svg width="25" height="25" viewBox="0 0 15 15" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -78,8 +79,9 @@
                             </svg>
                         </button>
                     </a>
-                    <a href="https://github.com/StrontiumComputer" target="_blank" rel="noopener noreferrer">
-                        <button class="mx-2 pt-[0.3rem] text-xl">
+                    <a href="https://github.com/StrontiumComputer" target="_blank" rel="noopener noreferrer"
+                        role="button" class="btn btn-square mx-1 -mt-1">
+                        <button class="text-xl btn btn-square">
                             <svg width="25" height="25" viewBox="0 0 15 15" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -91,7 +93,7 @@
                     <a>
                         <label class="mx-2 pt-[0.1rem] swap swap-rotate">
                             <!-- this hidden checkbox controls the state -->
-                            <input type="checkbox" class="theme-controller" value="light" />
+                            <input type="checkbox" class="theme-controller" value="dark" />
 
                             <!-- sun icon -->
                             <svg class="swap-off h-8 w-8 fill-current" xmlns="http://www.w3.org/2000/svg"
