@@ -1,21 +1,8 @@
 ---
-import '@fontsource/poppins';
-import '@fontsource/ibm-plex-mono';
-import Header from '../components/navbar.vue';
+import Layout from '@/layouts/Layout.astro';
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Srijan Ray</title>
-	</head>
-	<body>
-        <Header />
-        <h1 class="text-6xl p-6">About</h1>
-
+<Layout title="About">
         <div class="text-3xl p-6">
             <h3 class="py-6 text-6xl text-red-600" >Portfolio UNDER DEVELOPMENT!!!</h3>
             <h3 class="py-3 font-serif">So I kinda didn't make my about page yet... Here's a description I made about myself from high school that is pretty accurate but not up to date and not in anyway reflective of my current writing style. Don't worry, a real about page is coming soon to the many people interested in my shining portfolio. Enjoy!</h3>
@@ -27,6 +14,4 @@ Srijan Ray is an incoming computer science student at the Georgia Institute of T
 	Ray's work has the potential to make a real difference in the lives of people who are affected by disease. He is a bright and promising young researcher who is well on his way to making a significant impact on the field of biomedical research.
             </h3>
         </div>
-	</body>
-</html>
-
+</Layout>
