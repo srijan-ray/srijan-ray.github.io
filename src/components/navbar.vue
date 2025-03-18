@@ -1,5 +1,5 @@
 <template>
-    <div class="navbar bg-base-200 sticky top-0">
+    <div class="navbar bg-base-200 sticky top-0 z-50">
         <div class="flex-1">
             <a href="/" class="btn btn-ghost text-xl">Srijan Ray</a>
         </div>
