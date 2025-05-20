@@ -68,7 +68,7 @@ function downloadPDF() {
                         </a>
                     </li>
                     <li>
-                        <a role="button" class="btn btn-outline btn-sm mx-2" download="SrijanRayResume" href="../../public/SrijanRayResume.pdf">
+                        <a role="button" class="btn btn-outline btn-sm mx-2" download="SrijanRayResume" href="../SrijanRayResume.pdf">
                             Resume/CV
                         </a>
                     </li>
