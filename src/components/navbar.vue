@@ -1,3 +1,12 @@
+<script setup lang="ts">
+function downloadPDF() {
+  const link = document.createElement('a');
+  link.href = '../../public/SrijanRayResume.pdf';  
+  link.download = 'SrijanRayResume.pdf';
+  link.click();
+  console.log("here");
+}
+</script>
 <template>
     <div class="navbar bg-base-200 sticky top-0 z-50">
         <div class="flex-1">
@@ -30,9 +39,9 @@
                         </a>
                     </li>
                     <li>
-                        <a href="/resume">
-                            Resume/CV
-                        </a>
+                        <button @click="downloadPDF">
+                                Resume/CV
+                        </button>
                     </li>
                     <li>
                         <a href="/blog">
@@ -59,7 +68,7 @@
                         </a>
                     </li>
                     <li>
-                        <a role="button" href="/resume" class="btn btn-outline btn-sm mx-2">
+                        <a role="button" class="btn btn-outline btn-sm mx-2" download="SrijanRayResume" href="../../public/SrijanRayResume.pdf">
                             Resume/CV
                         </a>
                     </li>
