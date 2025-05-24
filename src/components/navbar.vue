@@ -1,10 +1,10 @@
 <script setup lang="ts">
 function downloadPDF() {
-  const link = document.createElement('a');
-  link.href = '../../public/SrijanRayResume.pdf';  
-  link.download = 'SrijanRayResume.pdf';
-  link.click();
-  console.log("here");
+    const link = document.createElement('a');
+    link.href = '../../public/SrijanRayResume.pdf';  
+    link.download = 'SrijanRayResume.pdf';
+    link.click();
+    console.log("here");
 }
 </script>
 <template>
@@ -40,7 +40,7 @@ function downloadPDF() {
                     </li>
                     <li>
                         <button @click="downloadPDF">
-                                Resume/CV
+                            Resume/CV
                         </button>
                     </li>
                     <li>
