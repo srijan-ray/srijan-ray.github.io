@@ -88,7 +88,7 @@ function downloadPDF() {
                             </svg>
                         </button>
                     </a>
-                    <a href="https://github.com/StrontiumComputer" target="_blank" rel="noopener noreferrer"
+                    <a href="https://github.com/srijan-ray" target="_blank" rel="noopener noreferrer"
                         role="button" class="btn btn-square mx-1 -mt-1">
                         <button class="text-xl btn btn-square">
                             <svg width="25" height="25" viewBox="0 0 15 15" fill="none"
