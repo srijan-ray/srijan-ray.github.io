@@ -43,11 +43,6 @@ function downloadPDF() {
                             Resume/CV
                         </button>
                     </li>
-                    <li>
-                        <a href="/blog">
-                            Blog
-                        </a>
-                    </li>
                 </ul>
             </div>
             <div class="hidden lg:flex">
@@ -70,11 +65,6 @@ function downloadPDF() {
                     <li>
                         <a role="button" class="btn btn-outline btn-sm mx-2" download="SrijanRayResume" href="../SrijanRayResume.pdf">
                             Resume/CV
-                        </a>
-                    </li>
-                    <li>
-                        <a role="button" href="/blog" class="btn btn-outline btn-sm mx-2">
-                            Blog
                         </a>
                     </li>
                     <a href="https://linkedin.com/in/srijan-ray" target="_blank" rel="noopener noreferrer" role="button"
