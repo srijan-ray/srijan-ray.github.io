@@ -2,7 +2,7 @@
     <header class="bg-white/80 backdrop-blur-lg fixed top-0 left-0 right-0 z-40 border-b border-slate-200">
         <div class="container mx-auto px-6 py-4">
             <div class="flex justify-between items-center">
-                <a href="#home" class="text-2xl font-bold text-teal-700">Srijan Ray</a>
+                <a href="#home" class="text-2xl font-bold text-teal-500">Srijan Ray</a>
                 <nav class="hidden md:flex space-x-8">
                     <a href="#about" class="text-slate-600 hover:text-orange-500 transition-colors">About</a>
                     <a href="#experience" class="text-slate-600 hover:text-orange-500 transition-colors">Experience</a>

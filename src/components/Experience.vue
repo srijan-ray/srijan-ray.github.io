@@ -73,9 +73,9 @@ const experiences = [
     location: 'Laurel, MD',
     duration: 'May 2025 - Present',
     description: [
-      'Enhanced LLM message generation and UI.',
-      'Engineered a dashboard for usage statistics.',
-      'Built a platform to benchmark open-source LLMs.'
+      'Developed new feature enhancing LLM generated messages and upgraded application web interface using Vue.JS and Python, enabling more targeted and emotional messaging and overall easier to use user interface',
+      'Engineered web dashboard for monitoring usage statistics and dataset availability using Vue.JS and FastAPI, streamlining usage metrics tracking, increasing ease of use for operators, and providing real-time monitoring of usage data',
+      'Created platform for evaluating various open-source LLMs on use-case specific benchmarks (GPQA, MMLU, etc.) using Vue.JS and ElasticSearch, benchmarking nearly 5000 open-source LLMs on 50+ metrics'
     ],
     technologies: ['Vue.js', 'Python', 'FastAPI', 'ElasticSearch']
   },
@@ -85,9 +85,9 @@ const experiences = [
     location: 'Atlanta, GA',
     duration: 'October 2024 - Present',
     description: [
-      'Designing novel deep learning models for biomedical imaging.',
-      'Exploring unsupervised clustering for large-scale cell data.',
-      'Published a peer-reviewed paper in ACS Omega.'
+      'Designing novel technique for training deep learning models for biomedical image analysis using TensorFlow, NumPy, potentially cutting down days to weeks of time spent manually labelling images for image segmentation',
+      'Exploring unsupervised/supervised clustering techniques for biomedical data analysis of 200,000+ cell nuceli',
+      'Published a peer-reviewed paper in ACS Omega using binary segmentation and dynamic programming step-detection algorithms for detecting ligand binding to virions'
     ],
     technologies: ['TensorFlow', 'NumPy', 'Python', 'Deep Learning']
   },
@@ -97,9 +97,9 @@ const experiences = [
     location: 'Laurel, MD',
     duration: 'May 2024 - May 2025',
     description: [
-      'Developed a full-stack dashboard for a national HHS project.',
-      'Engineered a command system for an AI modeling tool.',
-      'Awarded Special Achievement Award (Top 1% of interns).'
+      'Developed a full-stack dashboard (Vue.JS, FastAPI, PostgreSQL) for an HHS project, enabling the efficient coordination and distribution of therapeutic products across the United States, processing and analyzing more than 5 million datapoints',
+      'Engineered a streamlined command system in Kotlin and JavaFX for an AI modeling tool, increasing compatibility with diverse LLMs (e.g., Llama, GPT-4) and simplifying user workflows',
+      'Awarded Special Achievement Award for Outstanding Dedication and Positive Influence and Technical Expertise (Only given to 1 out of 100 interns)'
     ],
     technologies: ['Vue.js', 'FastAPI', 'PostgreSQL', 'Kotlin', 'JavaFX']
   }

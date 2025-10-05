@@ -1,12 +1,12 @@
 <template>
-  <section id="about" class="py-20 bg-slate-50">
+  <section id="about" class="py-20 bg-white">
     <div class="container mx-auto px-6">
       <h2 class="text-4xl font-bold text-center mb-6 text-slate-900">About Me</h2>
       
       <!-- Summary Blurb -->
       <div class="max-w-4xl mx-auto text-center mb-12">
         <p class="text-slate-600 text-lg leading-relaxed bg-white p-6 rounded-lg shadow-sm border border-slate-200">
-          I am a passionate and driven Computer Science student at the <strong class="font-semibold text-teal-700">Georgia Institute of Technology</strong>, specializing in Artificial Intelligence and Modeling & Simulation. My goal is to leverage technology to build innovative solutions that solve real-world problems. I thrive in environments where I can tackle complex challenges, from developing full-stack applications to designing and training deep learning models.
+          I am a passionate and driven Computer Science student at the <strong class="font-semibold text-teal-700">Georgia Institute of Technology</strong>, specializing in Artificial Intelligence and Modeling & Simulation. My goal is to leverage technology to build innovative AI-driven solutions that solve real-world problems. I thrive in environments where I can tackle complex challenges, from developing full-stack applications to designing and training deep learning models.
         </p>
       </div>
 
@@ -51,11 +51,14 @@
           <div class="flex flex-wrap gap-3">
               <span class="bg-teal-100 text-teal-800 font-semibold px-4 py-2 rounded-md">Machine Learning</span>
               <span class="bg-teal-100 text-teal-800 font-semibold px-4 py-2 rounded-md">Computer Vision</span>
-              <span class="bg-teal-100 text-teal-800 font-semibold px-4 py-2 rounded-md">Intro to AI</span>
+              <span class="bg-teal-100 text-teal-800 font-semibold px-4 py-2 rounded-md">Artificial Intelligence</span>
               <span class="bg-teal-100 text-teal-800 font-semibold px-4 py-2 rounded-md">Design & Analysis of Algorithms</span>
-              <span class="bg-teal-100 text-teal-800 font-semibold px-4 py-2 rounded-md">Systems and Networks</span>
-              <span class="bg-teal-100 text-teal-800 font-semibold px-4 py-2 rounded-md">Data Structures & Algorithms</span>
+                        <span class="bg-teal-100 text-teal-800 font-semibold px-4 py-2 rounded-md">Data Structures & Algorithms</span>
+              <span class="bg-teal-100 text-teal-800 font-semibold px-4 py-2 rounded-md">Operating Systems and Networks</span>
+                        <span class="bg-teal-100 text-teal-800 font-semibold px-4 py-2 rounded-md">Probability & Statistics</span>
+              <span class="bg-teal-100 text-teal-800 font-semibold px-4 py-2 rounded-md">Computer Organization & Programming</span>
               <span class="bg-teal-100 text-teal-800 font-semibold px-4 py-2 rounded-md">Linear Algebra</span>
+              <span class="bg-teal-100 text-teal-800 font-semibold px-4 py-2 rounded-md">Multivariable Calculus</span>
               <span class="bg-slate-200 text-slate-700 font-semibold px-4 py-2 rounded-md">and more...</span>
           </div>
         </div>

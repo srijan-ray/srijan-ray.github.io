@@ -83,13 +83,13 @@ const selectedProject = ref(null);
 
 const projects = ref([
   {
-    title: 'Geographic Provider Equity',
+    title: 'Geographic Spatial Clustering for Observing Provider Equity',
     description: 'A full-stack dashboard for observing equity in the US pharmacy and provider network.',
-    imageUrl: 'https://placehold.co/600x400/1d4ed8/ffffff?text=Provider+Equity',
+    imageUrl: 'https://placehold.co/600x400/1d4ed8/ffffff?text=GeoSCOPE',
     technologies: ['Vue.js', 'FastAPI', 'Redis', 'Postgres', 'Docker', 'Leaflet.js'],
-    liveUrl: '#',
-    repoUrl: '#',
-    videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ', // Placeholder URL
+    liveUrl: null,
+    repoUrl: null,
+    videoUrl: null,
     detailedDescription: [
         'Analyzed the entire US Pharmacy and Provider network using data from Palantir Tiberius, US Census Bureau, and Open Street Maps.',
         'Wrote a FastAPI backend to query the Postgres/PostGIS database, using Redis as a cache to accelerate data retrieval from 8 seconds to 2 seconds.',
@@ -102,9 +102,9 @@ const projects = ref([
     description: 'A web app that uses Generative AI to create multiple-choice questions from user notes.',
     imageUrl: 'https://placehold.co/600x400/f97316/ffffff?text=Note.AI',
     technologies: ['Svelte', 'Django', 'OpenAI API', 'AWS'],
-    liveUrl: '#',
-    repoUrl: '#',
-    videoUrl: null,
+    liveUrl: 'https://devpost.com/software/note-ai#app-team',
+    repoUrl: 'https://github.com/srijan-ray/Note.AI',
+    videoUrl: 'https://www.youtube.com/embed/kMkXN7oFS-Y?si=9gi-nfI-baFHXvvB',
     detailedDescription: [
         'Created a web app built with Svelte.js and Django to help users study more efficiently by generating quizzes from their notes.',
         'Engineered prompts for the OpenAI API to effectively transform .docx files into structured multiple-choice questions in JSON format.',
@@ -118,8 +118,8 @@ const projects = ref([
     imageUrl: 'https://placehold.co/600x400/10b981/ffffff?text=Deep+Learning',
     technologies: ['Python', 'TensorFlow', 'Keras', 'NumPy', 'OpenCV'],
     liveUrl: null,
-    repoUrl: '#',
-    videoUrl: null,
+    repoUrl: null,
+    videoUrl: '',
     detailedDescription: [
         'Designed and built a Convolutional Neural Network (CNN) using TensorFlow and Keras for image segmentation of PET scans.',
         'Developed a data pipeline using NumPy and OpenCV to import and process four large image datasets (over 10,000 images each) from an FTP server.',
