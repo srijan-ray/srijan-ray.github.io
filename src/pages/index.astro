@@ -1,22 +1,71 @@
 ---
-import Layout from '../layouts/Layout.astro';
+// Import the global stylesheet and necessary components
+import '../styles/global.css';
+import Header from '../components/Header.vue';
+import About from '../components/About.vue';
+import Experience from '../components/Experience.vue';
+import Projects from '../components/Projects.vue';
+import Footer from '../components/Footer.vue';
+import Skills from '../components/Skills.vue';
+import Publications from '../components/Publications.vue';
+import Contact from '../components/Contact.vue';
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+// Define page metadata
+const pageTitle = "Srijan Ray | Developer Portfolio";
+const description = "Welcome to the portfolio of Srijan Ray, a computer science student specializing in AI, machine learning, and full-stack development.";
+
 ---
+<html lang="en" class="scroll-smooth">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content={description} />
+        <title>{pageTitle}</title>
+        <!-- Favicon Example -->
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body class="bg-slate-50 text-slate-800 font-sans antialiased">
 
-<Layout title="Srijan Ray">
-            <div class="hero bg-base-100 min-h-screen">
-            <div class="hero-content flex-col lg:flex-row-reverse">
-                <img
-                    src="../SrijanRay_Headshot.jpeg"
-                    class="max-w-sm rounded-lg shadow-2xl" />
-                <div>
-                    <h1 class="text-6xl font-bold mb-10 mr-20">Hi, I'm Srijan!</h1>
-                    <h3 class="py-3 mr-20 text-2xl">Computer Science Major at Georgia Tech</h3>
-                    <h3 class="py-3 mr-20 text-2xl">Machine Learning Engineer</h3>
-                </div>
-            </div>
-        </div>
+        <Header client:load />
 
-</Layout>
+        <main class="container mx-auto px-6">
+            <!-- Hero Section -->
+            <section class="text-center py-20 md:py-32">
+                <h1 class="text-5xl md:text-7xl font-bold mb-4 leading-tight text-slate-900">
+                    Hi, I'm Srijan Ray
+                </h1>
+                <p class="text-lg md:text-xl text-slate-600 max-w-3xl mx-auto">
+                    I build intelligent and scalable web applications, specializing in AI, machine learning, and full-stack development. Currently studying Computer Science at Georgia Tech.
+                </p>
+                <a href="mailto:sray99@gatech.edu" class="mt-8 inline-block bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3 px-8 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                    Get In Touch
+                </a>
+            </section>
+        </main>
+
+        <!-- About Section -->
+        <About client:load />
+
+        <!-- Experience Section -->
+        <Experience client:load />
+
+        <!-- Projects Section -->
+        <Projects client:load />
+
+        <Publications client:load />
+
+        <Skills client:load />
+
+        <Contact client:load />
+    </body>
+</html>
+
+<style is:global>
+body {
+    font-family: 'Inter', sans-serif;
+}
+</style>

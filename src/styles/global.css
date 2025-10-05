@@ -1,8 +1,1 @@
 @import "tailwindcss";
-
-@plugin "daisyui" {
-    themes: silk --default, dark --prefersdark;
-}
-html {
-    scrollbar-gutter: stable;
-}
