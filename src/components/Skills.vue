@@ -44,7 +44,7 @@ const skillCategories = [
   },
   {
     title: 'Development Tools & Environments',
-    skills: ['Docker', 'Git & Github', 'Linux', 'AWS', 'Vim']
+    skills: ['Vim', 'Docker', 'Git', 'Github', 'Linux', 'AWS']
   }
 ];
 </script>
