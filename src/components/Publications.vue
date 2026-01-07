@@ -26,6 +26,16 @@
 
 <script setup>
 const publications = [
+    {
+    title: 'CellGenNet: A Knowledge-Distilled Framework for Robust Cell Segmentation in Cancer Tissues',
+    authors: '<strong>Ray, Srijan</strong>, Nirala, Bikesh K., Yustein, Jason T., and Ram, Sundaresh',
+    journal: 'arXiv preprint arXiv:2511.15054',
+    volume: null,
+    number: null,
+    pages: null,
+    year: '2025',
+    doiUrl: 'https://doi.org/10.48550/arXiv.2511.15054',
+  },
   {
     title: 'ACE2 Receptor and Antibody Binding to SARS-CoV-2 Spikes and Virions by Single-Molecule Fluorescence',
     authors: 'Dasgupta, Souradip, <strong>Ray, Srijan</strong>, Srivatsav, Aswin T., DeVico, Anthony L., and Ray, Krishanu',
